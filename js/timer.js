@@ -1,4 +1,4 @@
-var countDownDate = new Date("Nov 25, 2021 12:00:00").getTime();
+var countDownDate = new Date("Nov 25, 2022 12:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -17,6 +17,6 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Now! Check information <a href='/support.html'target='_blank' class='text-link'>here</a><span class='point'>.</span>";
+    document.getElementById("demo").innerHTML = "Now! Check information <a href='support.html'target='_blank' class='text-link'>here</a><span class='point'>.</span>";
   }
 }, 1000);
